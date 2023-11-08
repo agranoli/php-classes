@@ -6,7 +6,7 @@ class Cat{
 
     public function birthday(){
         $this->age = $age+1;
-        echo $this->age;
+        echo "Age - ".$this->age;
     }
     static function moew(){
         echo "meow";
