@@ -1,8 +1,13 @@
 <?php
 
-require_once("Car.php");
-require_once("Train.php");
+require_once("Cat.php");
+require_once("Dog.php");
 
 
-Train::makeNoise();
-Car::makeNoise();
+$dog = new Dog();
+echo $dog->eat() . "\n";
+
+$cat = new Cat("Fluffy");
+echo $cat->eat(); // Output: "I like whiskas"
+
+

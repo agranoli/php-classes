@@ -1,18 +1,10 @@
 <?php
+require_once "Animal.php";
 
-class Dog{
-    public $name;
-    private $age = 0;
+require_once "Animal.php";
 
-    function __construct($n, $a){
-        $this->name = $n;
-        $this->age = $a;
-    }
-    public function birthday(){
-        $this->age = $this->age+1;
-        echo "Age - ".$this->age;
-    }
-    static function woof(){
-        echo "woof";
+class Dog extends Animal {
+    public function eat() {
+        return "I like bones";
     }
 }
