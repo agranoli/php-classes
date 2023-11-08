@@ -1,6 +1,6 @@
 <?php
 
-require_once ("cat.php");
+require_once("Cat.php");
 
 $Mincis = new Cat();
 $Brincis = new Cat();
