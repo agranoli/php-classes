@@ -1,8 +1,8 @@
 <?php
 
-require_once("Dog.php");
+require_once("Car.php");
+require_once("Train.php");
 
-$Reksis = new Dog("Reksis", 69);
 
-
-Dog::woof();
+Train::makeNoise();
+Car::makeNoise();

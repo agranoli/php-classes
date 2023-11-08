@@ -1,9 +1,7 @@
 <?php
 //1.velos izveidot klasi
-class Car{
-    //2. velos lai ir publiska ipasiba brand
-    public $brand;
-    private $mileage = 0;
+require_once "Vehicle.php";
+class Car extends Vehicle {
 
     function __construct($b, $m){
         $this->brand = $b;
