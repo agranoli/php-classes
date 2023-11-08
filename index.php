@@ -1,11 +1,8 @@
 <?php
 
-require_once("Cat.php");
+require_once("Dog.php");
 
-$Mincis = new Cat();
-$Brincis = new Cat();
+$Reksis = new Dog("Reksis", 69);
 
-$Mincis->birthday();
-$Brincis->birthday();
 
-Cat::moew();
+Dog::woof();
